@@ -5,41 +5,42 @@
 
     <ContentPage.Content>
         <StackLayout HorizontalOptions="CenterAndExpand">
-            <Label Text="Your Info" HorizontalOptions="CenterAndExpand" FontFamily="Bold"
-                   TextColor="Green"/>
+            <Label Text="  Your Info  " HorizontalOptions="CenterAndExpand"
+                   TextColor="White" BackgroundColor="DarkGreen"
+                   FontSize="Title" />
             <Button Text="Get Info" Clicked="Button_Clicked" />
 
             <ScrollView HorizontalOptions="CenterAndExpand">
-                <StackLayout>
-                    <Label Text="1. Public IP address" />
-                    <Label x:Name="lbIP" Text="Your IP" HorizontalOptions="CenterAndExpand" />
+                <StackLayout HorizontalOptions="StartAndExpand">
+                    <Label Text="1. Public IP address" Margin="0,5,0,0" />
+                    <Label x:Name="lbIP" Text="Your IP" />
 
-                    <Label Text="2. City" />
-                    <Label x:Name="lbCity" Text="Your city" HorizontalOptions="CenterAndExpand" />
+                    <Label Text="2. City" Margin="0,10,0,0" />
+                    <Label x:Name="lbCity" Text="Your city" />
 
-                    <Label Text="3. Region" />
-                    <Label x:Name="lbRegion" Text="Your region" HorizontalOptions="CenterAndExpand" />
+                    <Label Text="3. Region" Margin="0,10,0,0" />
+                    <Label x:Name="lbRegion" Text="Your region" />
 
-                    <Label Text="4. Country" />
-                    <Label x:Name="lbCountry" Text="Your country" HorizontalOptions="CenterAndExpand" />
+                    <Label Text="4. Country" Margin="0,10,0,0" />
+                    <Label x:Name="lbCountry" Text="Your country" />
 
-                    <Label Text="5. Geo Info" />
-                    <Label x:Name="lbGeo" Text="Your Geo" HorizontalOptions="CenterAndExpand" />
+                    <Label Text="5. Geo Info" Margin="0,10,0,0" />
+                    <Label x:Name="lbGeo" Text="Your Geo" />
 
-                    <Label Text="6. ServiceProvider" />
-                    <Label x:Name="lbSP" Text="Your service provider" HorizontalOptions="CenterAndExpand" />
+                    <Label Text="6. ServiceProvider" Margin="0,10,0,0" />
+                    <Label x:Name="lbSP" Text="Your service provider" />
 
-                    <Label Text="7. PostalCode" />
-                    <Label x:Name="lbPCode" Text="Your postal code" HorizontalOptions="CenterAndExpand" />
+                    <Label Text="7. PostalCode" Margin="0,10,0,0" />
+                    <Label x:Name="lbPCode" Text="Your postal code" />
 
-                    <Label Text="8. Timezone" />
-                    <Label x:Name="lbTimeZone" Text="Your timezone" HorizontalOptions="CenterAndExpand" />
+                    <Label Text="8. Timezone" Margin="0,10,0,0" />
+                    <Label x:Name="lbTimeZone" Text="Your timezone" />
 
                 </StackLayout>
 
             </ScrollView>
-            <Button Text="FreeNanum" HorizontalOptions="CenterAndExpand"
-                   FontFamily="Bold" TextColor="Green" 
+            <Button Text="(c)FreeNanum" HorizontalOptions="CenterAndExpand"
+                   FontFamily="Bold" TextColor="Green" Margin="0,10,0,0"
                     Clicked="Button_Clicked_FreeNanum"/>
 
 
