@@ -1,3 +1,5 @@
+[한국어 버전 보기](README.ko.md)
+
 # Xamarin.Forms Public IP Info Base Project for Tizen Galaxy Watch
 
 This repository contains a foundational Xamarin.Forms project designed to fetch and display public IP address information and related details using the `ipinfo.io` API. While this project provides the core cross-platform logic, it is specifically intended to serve as a **base project** for developing a Tizen Galaxy Watch application.
